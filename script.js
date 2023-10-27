@@ -58,3 +58,109 @@ document.addEventListener("mousemove", dragging);
 carousel.addEventListener("touchmove", dragging);
 document.addEventListener("mouseup", dragStop);
 carousel.addEventListener("touchend", dragStop);
+
+
+//modal1
+var modal = document.getElementById("myModal");
+
+// botón que abre el modal
+var btn = document.getElementById("myBtn");
+
+// obtener <span> que cierrra el modal
+var span = document.getElementsByClassName("close")[0];
+
+// click al boton para abrir el modal
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// click <span> (x) para cerrar el modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// click fuera del modal para cerrarlo
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+
+
+//modal2
+var modal2 = document.getElementById("myModal2");
+
+// botón que abre el modal
+var btn2 = document.getElementById("myBtn2");
+
+var span2 = document.getElementsByClassName("close2")[0];
+
+// click al boton para abrir el modal
+btn2.onclick = function() {
+  modal2.style.display = "block";
+}
+
+// click <span> (x) para cerrar el modal
+span2.onclick = function() {
+  modal2.style.display = "none";
+}
+
+// click fuera del modal para cerrarlo
+window.onclick = function(event) {
+  if (event.target == modal2) {
+    modal2.style.display = "none";
+  }
+}
+
+//modal3
+var modal3 = document.getElementById("myModal3");
+
+// botón que abre el modal
+var btn3 = document.getElementById("myBtn3");
+
+// obtener <span> que cierrra el modal
+var span3 = document.getElementsByClassName("close3")[0];
+
+// click al boton para abrir el modal
+btn3.onclick = function() {
+  modal3.style.display = "block";
+}
+
+// click <span> (x) para cerrar el modal
+span3.onclick = function() {
+  modal3.style.display = "none";
+}
+
+// click fuera del modal para cerrarlo
+window.onclick = function(event) {
+  if (event.target == modal3) {
+    modal3.style.display = "none";
+  }
+}
+
+//modal4
+var modal4 = document.getElementById("myModal4");
+
+// botón que abre el modal
+var btn4 = document.getElementById("myBtn4");
+
+// obtener <span> que cierrra el modal
+var span4 = document.getElementsByClassName("close4")[0];
+
+// click al boton para abrir el modal
+btn4.onclick = function() {
+  modal4.style.display = "block";
+}
+
+// click <span> (x) para cerrar el modal
+span4.onclick = function() {
+  modal4.style.display = "none";
+}
+
+// click fuera del modal para cerrarlo
+window.onclick = function(event) {
+  if (event.target == modal4) {
+    modal4.style.display = "none";
+  }
+}
+
